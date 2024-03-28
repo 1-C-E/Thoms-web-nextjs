@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body {
+  background-color: #F5F5F5;
 }
+
+/*a:active,
+a:hover,
+a:focus{
+  color: red;
+}*/
+
