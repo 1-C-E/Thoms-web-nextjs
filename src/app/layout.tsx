@@ -19,7 +19,7 @@ export default function RootLayout({
         <html lang="en">
         <body>
 
-        <div className="flex justify-between fixed w-[100%] bg-white rounded-b-[40px] pt-[30px] px-[40px] h-[110px]">
+        <div className="flex justify-between w-[100%] bg-white rounded-b-[40px] pt-[30px] px-[40px] h-[110px]">
             <Link href="/" className="text-[32px] font-[500]">thoms</Link>
 
             <input type="text" placeholder="Поиск по сайту"

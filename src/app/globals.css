@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;
 }
 
-/*a:active,
+a:active,
 a:hover,
-a:focus{
-  color: red;
-}*/
-
+a:focus {
+    color: #7875FF; /* красный цвет */
+}
