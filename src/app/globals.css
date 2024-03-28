@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 
+body {
+    background-color: #F5F5F5;
+}
 
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a:active,
+a:hover,
+a:focus {
+    color: #7875FF; /* красный цвет */
 }
