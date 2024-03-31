@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+@layer components {
+    .article {
+        @apply p-[3px] border-[3px] border-[#0493FA] rounded-[20px];
+    }
+}
+
 body {
     background-color: #F5F5F5;
 }
@@ -10,5 +16,6 @@ body {
 a:active,
 a:hover,
 a:focus {
-    color: #7875FF; /* красный цвет */
+    color: #7875FF;
 }
+
